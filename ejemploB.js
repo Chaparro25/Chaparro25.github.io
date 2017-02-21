@@ -1,3 +1,10 @@
+//Figuras
+//Una figura es un objeto bidimensional.
+//Es importante considerar este punto.
+//Para definir una geometría de una figura (vertices y caras), se necesitan dos pasos.
+//Primero se utiliza el constructor Shape() y se define el recorrido de la figura.
+//Posteriormente, se utiliza el constructor ShapeGeometry() para generar la geometría de la malla (vértices y caras).
+
 var figura = new THREE.Shape();
 
 //Las figuras en THREE se realizan sobre el plano xy.
