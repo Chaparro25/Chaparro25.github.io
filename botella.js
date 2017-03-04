@@ -7,7 +7,7 @@ var puntos = [];
 
 for ( var i = 0; i < 200; i ++ ) {
     puntos.push( new THREE.Vector2(
-                     1/(1+Math.exp(-6*i*0.1-9)),
+                     10/(1+Math.exp(-6*i*0.1-9)),
                       i*0.1 ));
 }
 
