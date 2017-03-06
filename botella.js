@@ -11,6 +11,12 @@ for ( var i = 0; i < 200; i ++ ) {
                       i*0.1 ));
 }
 
+for ( var i = 200; i < 300; i ++ ) {
+    puntos.push( new THREE.Vector2(
+                     -10*(Math.exp(-i*0.1+11)+3),
+                      i*0.1 ));
+}
+
 
 //Se definen la forma, el material y la malla.
 
