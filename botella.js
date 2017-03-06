@@ -7,14 +7,14 @@ var puntos = [];
 
 for ( var i = 0; i < 200; i ++ ) {
     puntos.push( new THREE.Vector2(
-                     10/(1+Math.exp(-6*i*0.1-9)),
-                      i*0.1 ));
+                     i*0.1,
+                    10/(1+Math.exp(-6*i*0.1-9))));
 }
 
 for ( var i = 200; i < 300; i ++ ) {
     puntos.push( new THREE.Vector2(
-                     -10*(Math.exp(-i*0.1+11)+3),
-                      i*0.1 ));
+                     i*0.1,
+                    -10*(Math.exp(-i*0.1+11)+3)));
 }
 
 
