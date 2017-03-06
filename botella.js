@@ -7,16 +7,16 @@ var puntos = [];
 
 for ( var i = 0; i < 200; i ++ ) {
     puntos.push( new THREE.Vector2(
-                     i*0.1,
-                    10/(1+Math.exp(-6*i*0.1-9))));
+                     10/(1+Math.exp(-6*i*0.1-9)),
+                     i*0.1));
 }
 
-for ( var i = 200; i < 300; i ++ ) {
-    puntos.push( new THREE.Vector2(
-                     i*0.1,
-                     10*(Math.log(-i*0.1)));
+//for ( var i = 200; i < 300; i ++ ) {
+  //  puntos.push( new THREE.Vector2(
+    //                 i*0.1,
+      //               10*(Math.log(-i*0.1)));
                     //-10*(Math.exp(-i*0.1+11)+3)));
-}
+//}
 
 
 //Se definen la forma, el material y la malla.
