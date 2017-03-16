@@ -1,6 +1,6 @@
-var material1 = new THREE.MeshBasicMaterial( { color: 0xbbbbbb } );
-var material2 = new THREE.MeshBasicMaterial( { color: 0x373737 } );
-var material3 = new THREE.MeshBasicMaterial( { color: 0x642424 } );
+var material1 = new THREE.MeshBasicMaterial( { color: 0x3399FF} );//0xbbbbbb
+var material2 = new THREE.MeshBasicMaterial( { color: 0xCC0033} );//0x373737 
+var material3 = new THREE.MeshBasicMaterial( { color: 0xFF9966} );//0x642424
 
 /////////////////////////////tablero
 var tablero = new Array(); 
